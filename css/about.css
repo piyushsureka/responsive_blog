@@ -1,0 +1,40 @@
+
+.about-content{
+    /* height: 350px; */
+    height: 100vh;
+    /* background-color: rgba(227, 229, 240, 0.973); */
+    /* display: flex; */
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;   
+    overflow: hidden;
+}
+
+.about-content::after{
+    content: "";
+    background-image: url('../img/6.jpg');
+    position: absolute; 
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.18;
+    border-radius: 12px;
+    z-index: -1;   
+}
+
+.about-img img{
+    /* height: 100vh; */
+    height: 350px;
+    width: 100%;
+   
+}
+
+.text-content{
+    font-family: var(--font2);
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+
+
+
